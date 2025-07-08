@@ -28,7 +28,7 @@ Copy လႄႈသႂ်ႇ code ပႃႈတႂ်ႈၼႆႉ
 body, html, p, span, div, a, li, ul, ol, h1, h2, h3, h4, h5, h6, blockquote, strong, em, b, i, button, input, textarea, select, label, table, th, td, nav, footer, header, section, article, aside, form, address, figcaption, fieldset, legend, details, summary {
   font-family: 'Shan', sans-serif !important;
   line-height: 1.6em;
-  letter-space: 0 !important;
+  letter-spacing: 0 !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; 
 }
