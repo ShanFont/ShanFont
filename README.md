@@ -7,7 +7,7 @@
 Copy လႄႈသႂ်ႇ code ပႃႈတႂ်ႈၼႆႉ
 
 ```css
-<link rel="stylesheet" href='https://taidev.github.io/Shan/shan.css' />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ShanFont/ShanFont@main/shan.css">
 ```
 
 ၵႂႃႇသႂ်ႇၼႂ်းၵႄႈ
@@ -22,83 +22,14 @@ Copy လႄႈသႂ်ႇ code ပႃႈတႂ်ႈၼႆႉ
 
 Copy လႄႈသႂ်ႇ code ပႃႈတႂ်ႈၼႆႉ
 ```css
-@import url("https://taidev.github.io/Shan/shan.css");
-ၸႂ်ႉ @fontface ပုၼ်ႈတႃႇ Custom CSS
-/* Shan Thin */
-@font-face {
-  font-family: 'Shan';
-  src: url('/fonts/Shan-Thin.woff2') format('woff2');
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://cdn.jsdelivr.net/gh/ShanFont/ShanFont@main/shan.css');
 
-@font-face {
-  font-family: 'Shan';
-  src: url('/fonts/Shan-ThinItalic.woff2') format('woff2');
-  font-weight: 100;
-  font-style: italic;
-  font-display: swap;
+/* Apply Shan Font Globally */
+body, html, p, span, div, a, li, ul, ol, h1, h2, h3, h4, h5, h6, blockquote, strong, em, b, i, button, input, textarea, select, label, table, th, td, nav, footer, header, section, article, aside, form, address, figcaption, fieldset, legend, details, summary {
+  font-family: 'Shan', sans-serif !important;
+  line-height: 1.6em !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; 
 }
-
-/* Shan Regular */
-@font-face {
-  font-family: 'Shan';
-  src: url('/fonts/Shan-Regular.woff2') format('woff2');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Shan';
-  src: url('/fonts/Shan-RegularItalic.woff2') format('woff2');
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Shan Bold */
-@font-face {
-  font-family: 'Shan';
-  src: url('/fonts/Shan-Bold.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Shan';
-  src: url('/fonts/Shan-BoldItalic.woff2') format('woff2');
-  font-weight: 700;
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Shan Black */
-@font-face {
-  font-family: 'Shan';
-  src: url('/fonts/Shan-Black.woff2') format('woff2');
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Shan';
-  src: url('/fonts/Shan-BlackItalic.woff2') format('woff2');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
- 
- /* apply fonts to basic html elements */  
-body, ul, ol, li, img, div, blockquote, button, canvas, caption, code, data, dd, del, details, dialog, dl, element, em, footer, form, hr, i, nav, q, span, a, input, hr, quote, table, h1, h2, h3, h4, h5, h6, p, pre, kbd, tt, var, samp, select, textarea, optgroup, details, progress, main {     
-      font-family: 'Shan', sans-serif;
-      line-height: 1.6 !important;   
-      font-weight: 400;
-    }
-Built On — CSS
 ```
 
